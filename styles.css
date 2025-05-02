@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  background: #f0f2f7;
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 4px solid #5C6BC0;
+}
+
+.sidebar h3 {
+  color: #5C6BC0;
+  margin-top: 20px;
+}
+
+.sidebar .icons span {
+  display: inline-block;
+  background: #5C6BC0;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.main-content {
+  width: 70%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.main-content h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.main-content h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  font-size: 20px;
+  color: #5C6BC0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+.experience h4 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.experience span {
+  float: right;
+  font-weight: normal;
+  color: #888;
+}
+
+.skill-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-columns div {
+  width: 48%;
+}
+
